@@ -1,0 +1,100 @@
+﻿  MoveControl.cpp
+  MoveDodge.cpp
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movedodge.cpp(57): error C2065: 'm_calcEndPos': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movedodge.cpp(57): error C2228: '.x' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movedodge.cpp(57): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movedodge.cpp(58): error C2065: 'm_calcEndPos': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movedodge.cpp(58): error C2228: '.y' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movedodge.cpp(58): note: 型は 'unknown-type' です。
+  MoveNormal.cpp
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movenormal.cpp(22): error C2039: 'pObjectPos': 'MoveNormal::ArgMoveNormal' のメンバーではありません。
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movenormal.h(15): note: 'MoveNormal::ArgMoveNormal' の宣言を確認してください
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movenormal.cpp(22): error C2530: 'oldPos': 参照が初期化されずに宣言されています。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movenormal.cpp(26): error C2065: 'm_calcEndPos': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movenormal.cpp(26): error C2228: '.x' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movenormal.cpp(26): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movenormal.cpp(27): error C2065: 'm_calcEndPos': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movenormal.cpp(27): error C2228: '.y' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movenormal.cpp(27): note: 型は 'unknown-type' です。
+  MoveBase.cpp
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(15): error C2065: 'm_argData': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(15): error C2228: '.pObjectPos' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(15): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(16): error C2065: 'm_calcEndPos': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(19): error C2065: 'm_calcEndPos': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(19): error C2065: 'm_argData': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(19): error C2228: '.pObjectPos' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(19): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(36): error C2065: 'm_argData': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(36): error C2228: '.isPositionAddFlg' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(36): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(38): error C2065: 'm_argData': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(38): error C2228: '.pMoveDirPos' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(38): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(38): error C2228: '.x' の左側はクラス、構造体、共用体でなければなりません
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(39): error C2065: 'm_argData': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(39): error C2228: '.pMoveDirPos' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(39): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(39): error C2228: '.y' の左側はクラス、構造体、共用体でなければなりません
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(46): error C2065: 'm_argData': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(46): error C2228: '.pMoveDirPos' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(46): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(46): error C2228: '.x' の左側はクラス、構造体、共用体でなければなりません
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(46): error C2228: '.pObjectPos' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(46): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(47): error C2065: 'm_argData': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(47): error C2228: '.pMoveDirPos' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(47): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(47): error C2228: '.y' の左側はクラス、構造体、共用体でなければなりません
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(47): error C2228: '.pObjectPos' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(47): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(63): error C2065: 'm_calcEndPos': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(63): error C2065: 'm_argData': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(63): error C2228: '.pObjectPos' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(63): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(77): error C2065: 'm_argData': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(77): error C2228: '.isPositionAddFlg' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(77): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(79): error C2065: 'm_argData': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(79): error C2228: '.pMoveDirPos' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(79): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(79): error C2660: 'Calculation::GetAngle2': 関数に 1 個の引数を指定できません。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(83): error C2065: 'm_argData': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(83): error C2228: '.pObjectPos' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(83): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(83): error C2228: '.pMoveDirPos' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(83): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.cpp(83): error C2660: 'Calculation::GetAngle2': 関数に 1 個の引数を指定できません。
+  コードを生成中...
+  コンパイル中...
+  PlayerClass.cpp
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\squarebase.h(25): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(25): error C2039: 'ArgMoveBase': 'MoveBase' のメンバーではありません。
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movebase.h(24): note: 'MoveBase' の宣言を確認してください
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(25): error C2065: 'ArgMoveBase': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(25): error C2146: 構文エラー: ';' が、識別子 'tmpBase' の前に必要です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(25): error C2065: 'tmpBase': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(26): error C2065: 'tmpBase': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(26): error C2228: '.isPositionAddFlg' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(26): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(27): error C2065: 'tmpBase': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(27): error C2228: '.pObjectPos' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(27): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(28): error C2065: 'tmpBase': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(28): error C2228: '.pMoveDirPos' の左側はクラス、構造体、共用体でなければなりません
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(28): note: 型は 'unknown-type' です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(40): error C2039: 'BaseSet': 'MoveNormal::ArgMoveNormal' のメンバーではありません。
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movenormal.h(15): note: 'MoveNormal::ArgMoveNormal' の宣言を確認してください
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(40): error C2065: 'tmpBase': 定義されていない識別子です。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(41): error C2440: '=': 'double *' から 'double' に変換できません。
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(41): note: この変換が可能なコンテキストはありません。
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(49): error C2039: 'BaseSet': 'MoveDodge::ArgMoveDodge' のメンバーではありません。
+  d:\visualstudioprojects\survivaldungeon\survivaldungeon\movedodge.h(12): note: 'MoveDodge::ArgMoveDodge' の宣言を確認してください
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\playerclass.cpp(49): error C2065: 'tmpBase': 定義されていない識別子です。
+  CharaBase.cpp
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\squarebase.h(25): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  MainFunction.cpp
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\squarebase.h(25): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  AppManager.cpp
+d:\visualstudioprojects\survivaldungeon\survivaldungeon\squarebase.h(25): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  コードを生成中...

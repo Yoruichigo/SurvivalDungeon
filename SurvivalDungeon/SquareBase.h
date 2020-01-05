@@ -22,7 +22,7 @@ struct SquareBase
 	virtual void TestDraw()
 	{
 		auto color = GetColor(150, 150, 255);
-		DrawBoxAA(Pos.x, Pos.y, Pos.x + Size.x, Pos.y + Size.y, color, true);
+		DrawBox(Pos.x, Pos.y, Pos.x + Size.x, Pos.y + Size.y, color, true);
 	}
 
 	Vector2 Pos;				// ç∂è„ÇÃç¿ïW  

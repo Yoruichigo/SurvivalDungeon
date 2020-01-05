@@ -9,7 +9,8 @@ using namespace std;
 
 AppManager::AppManager()
 {
-	m_pChar = make_unique<PlayerClass>();
+	//m_pChar = make_unique<PlayerClass>();
+	m_pChar = unique_ptr<PlayerClass>();
 }
 
 

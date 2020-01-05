@@ -2,7 +2,7 @@
 
 #include <memory>
 
-#include "CharaBase.h"
+#include "ObjectBase.h"
 
 // アプリ管理基底クラス
 class AppManager
@@ -17,6 +17,6 @@ public:
 private:
 	void Draw();
 
-	std::unique_ptr<CharaBase> m_pChar;
+	std::unique_ptr<ObjectBase> m_pChar;
 };
 

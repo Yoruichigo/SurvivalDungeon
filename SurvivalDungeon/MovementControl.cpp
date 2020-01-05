@@ -4,14 +4,14 @@
 
 */
 
-#include "MoveControl.h"
+#include "MovementControl.h"
 
 #include "Macro.h"
 
 using namespace std;
 
 
-MoveControl::MoveControl(const ArgMoveControl& rArg)
+MovementControl::MovementControl(const ArgMovementControl& rArg)
 {
 	m_pObjPos = rArg.pPosition;
 
@@ -53,3 +53,7 @@ MoveControl::MoveControl(const ArgMoveControl& rArg)
 	}
 }
 
+MovementControl::~MovementControl()
+{
+
+}

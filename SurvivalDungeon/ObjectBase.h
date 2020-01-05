@@ -11,7 +11,7 @@
 
 #include "SquareBase.h"
 
-class ObjectBase  
+class ObjectBase 
 {
 public:
 	ObjectBase();

@@ -59,7 +59,8 @@ public:
 
 private:
 	static DINPUT_JOYSTATE joyState;
-	static Vector2 joyStickPosL;
-	static Vector2 joyStickPosR;
+	static Vector2 joyStickPosL;		// Lスティック
+	static Vector2 joyStickPosR;		// Rスティック
+	static int keybordState[256];		// キーボード入力情報
 };
 

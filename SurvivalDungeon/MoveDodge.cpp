@@ -27,7 +27,7 @@ void MoveDodge::Init()
 
 	const double angle = GetAngle();
 
-	m_startPos = GetPosition();
+	//m_startPos = GetPosition();
 	m_dir.x = Calculation::GetCosinThetaCalc(angle);
 	m_dir.y = Calculation::GetSineThetaCalc(angle);
 }
@@ -54,8 +54,8 @@ void MoveDodge::PositionCalc()
 
 	double easVal = Easing::OutQuint(m_nowFrame, m_argData.frame);
 
-	m_calcEndPos.x = m_startPos.x + (m_dir.x * m_argData.range * easVal);
-	m_calcEndPos.y = m_startPos.y + (m_dir.y * m_argData.range * easVal);
+//	m_calcEndPos.x = m_startPos.x + (m_dir.x * m_argData.range * easVal);
+//	m_calcEndPos.y = m_startPos.y + (m_dir.y * m_argData.range * easVal);
 }
 
 

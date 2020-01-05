@@ -1,43 +1,30 @@
 #pragma once
-
 /*
-	移動用のベースクラス
-	移動処理を行う場合はこのクラスを継承して作成してください。
+	移動処理の基底クラス
 
-	※アクセス量を減らすために、多量のポインタ管理を行ってます。
 */
 
-/*
-	継承クラスに関して
+#include "Vector2.h"
 
-	void PositionCalc()関数をoverrideして処理を行ってください。
 
-	処理が終わったら、下記の変数に結果を入れてください。
-	m_calcEndPos
-*/
-
-#include "ObjectBase.h"
-
-class MoveControl;
-
-class MoverBase : public ObjectBase
+class MoveBase
 {
 public:
-	MoverBase();
-	virtual ~MoverBase();
+	MoveBase();
+	virtual ~MoveBase();
 
-	
+	virtual void Calc();
 
-	virtual double GetAngle();
+	double GetAngle();
+
+
+	virtual void Init(){};
+	virtual void PositionCalc() = 0;
+	virtual bool CheckIsMoveFlg();
+
 
 private:
-
-	Vector2 m_dir;
-
-
 };
-
-
 
 
 /*
@@ -100,3 +87,4 @@ void MoveNormal::PositionCalc()
 /////////////
 
 */
+

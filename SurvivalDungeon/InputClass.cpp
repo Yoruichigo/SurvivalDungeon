@@ -6,6 +6,7 @@
 DINPUT_JOYSTATE InputClass::joyState;
 Vector2 InputClass::joyStickPosL;
 Vector2 InputClass::joyStickPosR;
+int		InputClass::keybordState[256];
 
 InputClass::InputClass()
 {
@@ -22,12 +23,30 @@ InputClass::~InputClass()
 */
 void InputClass::Update()
 {
+	// キーボード入力更新
+	static char keybordBuf[256];
+
+	GetHitKeyStateAll(keybordBuf);
+
+	for(int i = 0 ; i < 256 ; i++)
+	{
+		if(keybordBuf[i] == 1){
+			keybordState[i] = 1;
+		}else{
+			keybordState[i] = 0;
+		}
+
+	}
+
+	// ジョイパッド入力情報の更新
 	GetJoypadDirectInputState(DX_INPUT_PAD1, &joyState);
 
 	joyStickPosL.x = joyState.X;
 	joyStickPosL.y = joyState.Y;
 	joyStickPosR.y = joyState.Z;
 	joyStickPosR.x = joyState.Rz;
+
+
 }
 
 #include "Calculation.h"
@@ -80,6 +99,8 @@ bool InputClass::GetButton(JOY_BUTTON buttonNo)
 
 int InputClass::GetPovX()
 {
+	int retXPov = 0;
+
 	switch(joyState.POV[0])
 	{
 		// 右
@@ -87,7 +108,7 @@ int InputClass::GetPovX()
 		case 9000:
 		case 13500:
 		{
-			return 1;
+			retXPov = 1;
 		}
 
 		// 左 
@@ -95,15 +116,25 @@ int InputClass::GetPovX()
 		case 27000:
 		case 31500:
 		{
-			return -1;
+			retXPov = -1;
 		}
 	}
 
-	return 0;
+	if(keybordState[KEY_INPUT_RIGHT] == 1)
+	{
+			retXPov = 1;
+	}
+	else if(keybordState[KEY_INPUT_LEFT] == 1)
+	{
+			retXPov = -1;
+	}
+
+	return retXPov;
 }
 
 int InputClass::GetPovY()
 {
+	int retYPov = 0;
 
 	switch(joyState.POV[0])
 	{
@@ -112,7 +143,7 @@ int InputClass::GetPovY()
 		case 18000:
 		case 22500:
 		{
-			return 1;
+			retYPov = 1;
 		}
 
 		// 上
@@ -120,11 +151,20 @@ int InputClass::GetPovY()
 		case 0:
 		case 4500:
 		{
-			return -1;
+			retYPov = -1;
 		}
 	}
+	
+	if(keybordState[KEY_INPUT_DOWN] == 1)
+	{
+			retYPov = 1;
+	}
+	else if(keybordState[KEY_INPUT_UP] == 1)
+	{
+			retYPov = -1;
+	}
 
-	return 0;
+	return retYPov;
 }
 
 float InputClass::GetLX()

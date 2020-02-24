@@ -273,3 +273,9 @@ SurvivalDungeon/Resource
 
 # git
 ./git
+
+# VS用プロジェクトファイルは除外
+SurvivalDungeon.sdf
+SurvivalDungeon.sln
+SurvivalDungeon.v12.suo
+SurvivalDungeon/*.vcxproj
